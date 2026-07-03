@@ -10,8 +10,6 @@ public class Main {
 //        MergeSortedArray mergeSortedArray = new MergeSortedArray();
 //        mergeSortedArray.merge(nums1,m,nums2,n);
 
-        int[] arr = {1,2,3,4};
-        ProductExceptSelf productExceptSelf = new ProductExceptSelf();
-        productExceptSelf.productExceptSelf(arr);
+
     }
 }
