@@ -10,11 +10,8 @@ public class Main {
 //        MergeSortedArray mergeSortedArray = new MergeSortedArray();
 //        mergeSortedArray.merge(nums1,m,nums2,n);
 
-        RandomizeSet randomizeSet = new RandomizeSet();
-        System.out.println("insert->"+randomizeSet.insert(5));
-        System.out.println("insert->"+randomizeSet.insert(4));
-        System.out.println("remove->"+randomizeSet.remove(9));
-        System.out.println("insert->"+randomizeSet.insert(6));
-        System.out.println("random->"+randomizeSet.getRandom());
+        int[] arr = {1,2,3,4};
+        ProductExceptSelf productExceptSelf = new ProductExceptSelf();
+        productExceptSelf.productExceptSelf(arr);
     }
 }
