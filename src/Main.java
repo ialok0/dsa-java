@@ -10,5 +10,8 @@ public class Main {
 //        MergeSortedArray mergeSortedArray = new MergeSortedArray();
 //        mergeSortedArray.merge(nums1,m,nums2,n);
 
+        int[] arr = {3,1,2,4,0,1,3,2};
+        WaterTrapping waterTrapping = new WaterTrapping();
+        System.out.println(waterTrapping.trap(arr));
     }
 }
