@@ -10,7 +10,7 @@ public class Main {
 //        MergeSortedArray mergeSortedArray = new MergeSortedArray();
 //        mergeSortedArray.merge(nums1,m,nums2,n);
 
-        ReverseWordInString reverseWordInString = new ReverseWordInString();
-        System.out.println(reverseWordInString.reverseWords("example   is  wrong"));
+        ZigzagConversion zigzagConversion = new ZigzagConversion();
+        System.out.println(zigzagConversion.convert("PAYPALISHIRING",3));
     }
 }
