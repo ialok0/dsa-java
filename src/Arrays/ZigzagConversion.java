@@ -1,5 +1,12 @@
 package Arrays;
-
+/*
+* example = PAYPALISHIRING ,, numrows = 3;
+* output  = PINALSIGYAHRPI
+        P     I    N        in output - first row write and then append second and so on.
+        A   L S  I G        like output - PIN + ALSIG + YAHR + PI = PINALSIGYAHRPI ;
+        Y A   H R
+        P     I
+* */
 public class ZigzagConversion {
     public String convert(String s, int numRows) {
         StringBuilder sb = new StringBuilder();
