@@ -2,7 +2,7 @@ package TwoPointer;
 /*
     given an array and target. sum of two values of array equals to the target.
     return the array of two values index with +1;
-    
+
     example - [1,2,3,6] target = 8;
     output -  [2,4]
  */

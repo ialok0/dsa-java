@@ -1,5 +1,6 @@
 import Arrays.*;
 import Strings.*;
+import TwoPointer.ContainerWithMostWater;
 import TwoPointer.IsSubsequence;
 
 public class Main {
@@ -11,6 +12,8 @@ public class Main {
 //        MergeSortedArray mergeSortedArray = new MergeSortedArray();
 //        mergeSortedArray.merge(nums1,m,nums2,n);
 
-
+        int[] arr = {1,1};
+        ContainerWithMostWater containerWithMostWater = new ContainerWithMostWater();
+        System.out.println(containerWithMostWater.maxArea(arr));
     }
 }
