@@ -2,6 +2,9 @@ import Arrays.*;
 import Strings.*;
 import TwoPointer.ContainerWithMostWater;
 import TwoPointer.IsSubsequence;
+import TwoPointer.ThreeSum;
+
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,8 +15,14 @@ public class Main {
 //        MergeSortedArray mergeSortedArray = new MergeSortedArray();
 //        mergeSortedArray.merge(nums1,m,nums2,n);
 
-        int[] arr = {1,1};
-        ContainerWithMostWater containerWithMostWater = new ContainerWithMostWater();
-        System.out.println(containerWithMostWater.maxArea(arr));
+        int[] arr = {-1,0,1,2,-1,-4};
+        ThreeSum threeSum = new ThreeSum();
+        List<List<Integer>> result =  threeSum.threeSum(arr);
+        for(List<Integer> triplet:result){
+            for(int num : triplet){
+                System.out.print(num + " ");
+            }
+            System.out.println();
+        }
     }
 }
