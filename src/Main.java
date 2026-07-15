@@ -15,14 +15,6 @@ public class Main {
 //        MergeSortedArray mergeSortedArray = new MergeSortedArray();
 //        mergeSortedArray.merge(nums1,m,nums2,n);
 
-        int[] arr = {-1,0,1,2,-1,-4};
-        ThreeSum threeSum = new ThreeSum();
-        List<List<Integer>> result =  threeSum.threeSum(arr);
-        for(List<Integer> triplet:result){
-            for(int num : triplet){
-                System.out.print(num + " ");
-            }
-            System.out.println();
-        }
+
     }
 }
