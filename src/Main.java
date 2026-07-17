@@ -1,4 +1,5 @@
 import Arrays.*;
+import Matrix.RotateMatrix;
 import Matrix.SpiralMatrix;
 import Strings.*;
 import TwoPointer.ContainerWithMostWater;
