@@ -11,9 +11,8 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        int[][] matrix = {{1,1,1},{1,0,1},{1,1,1}};
+        //labmda expression practice
 
-        SetMatrixZeroes setMatrixZeroes = new SetMatrixZeroes();
-        setMatrixZeroes.setZeroes(matrix);
+
     }
 }
