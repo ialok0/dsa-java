@@ -13,6 +13,7 @@ import java.util.HashSet;
     8*8 + 2*2 = 68
     6*6 + 8*8 = 100
     1*1 + 0*0 + 0*0 = 1
+
 */
 
 public class HappyNumber {

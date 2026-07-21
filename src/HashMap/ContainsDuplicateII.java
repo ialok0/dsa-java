@@ -1,0 +1,21 @@
+package HashMap;
+
+import java.util.HashMap;
+
+public class ContainsDuplicateII {
+    public boolean containsNearbyDuplicate(int[] nums, int k) {
+        HashMap<Integer,Integer> map = new HashMap<>();
+
+        int idx = 0;
+
+        for(int i : nums){
+            if(map.containsKey(i) && Math.abs(idx - map.get(i)) <= k){
+                return true;
+            }else{
+                map.put(i,idx);
+            }
+            idx++;
+        }
+        return false;
+    }
+}
