@@ -5,6 +5,14 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
+/*
+     in merge intervals, if the intervals are overlapping then merge the intervals based on the all numbers comes
+     between the new interval.
+
+     for example - [[2,6],[1,3],[8,9]]
+     ans should - [[1,6],[8,9]]
+*/
+
 public class MergeIntervals {
     public int[][] merge(int[][] intervals) {
         Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
